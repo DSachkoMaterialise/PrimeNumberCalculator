@@ -10,11 +10,6 @@
 
 using namespace std;
 
-auto foo = []()
-	{
-	return vector<string>();
-	};
-
 #define TUPLE_VECTORS(NAME, ...) static const tuple<vector<size_t>, vector<int>, vector<double>, vector<string>, vector<wstring>> NAME = {	\
 		{ __VA_ARGS__},							\
 		{ __VA_ARGS__},							\
